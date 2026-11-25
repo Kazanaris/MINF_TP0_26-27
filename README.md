@@ -31,4 +31,7 @@ Le "Timer Period" se calcule de la façon suivante :
 Dans le dernier calcul, le "- 1" vient du fait que le timer compte de 0 à 65'535, soit 65'536 valeur au total (sur la plage de comptage maximale).
 
 La configuration doit ressembler à cela :
-![Texte alternatif](
+![Texte alternatif](Configuration_du_timer.png)
+
+
+
