@@ -30,3 +30,5 @@ Le "Timer Period" se calcule de la façon suivante :
   3) Timer Period = (tVoulu / tApresPerscale) - 1 = (100 * 10^-3 / 3.2 * 10^-6) - 1 = 31'249.
 Dans le dernier calcul, le "- 1" vient du fait que le timer compte de 0 à 65'535, soit 65'536 valeur au total (sur la plage de comptage maximale).
 
+La configuration doit ressembler à cela :
+![Texte alternatif](
