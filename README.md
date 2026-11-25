@@ -129,15 +129,5 @@ La mesure montre qu'à l'initialisation du système, il y a du bruit sur la pin 
 La mesure par les curseurs montre qu'elle reste à l'état haut pendant 3s avant de revenir à l'état bas, ce qui correspond à l'entrée dans l'état APP_STATE_SERVICE_TASKS (la mise à l'état bas de la pin PIN_TEST est la première chose qui est faite dans l'APP_STATE_SERVICE_TASKS).
 Pour faire cela, les fonctions PLIB_PORTS_PinSet() et PLIB_PORTS_PinClear() ont été utilisées pou, dans l'ordre, mettre la pin PIN_TEST à l'état haut puis à l'état bas.
 
-
 # Listing du code
 Les fichiers app.c, app.h et system_interrupt.c se trouvent, en annexes, dans ce dépôt git.
-
-
-# Commentaires complémentaires
-Vous pouvez voir que les images sont en double dans le repo.
-Cela vient du fait qu'initialement j'avais ajouté les images contenant des espaces dans leurs noms via le bouton "Add file" et "Upload files" mais les espaces font que ces png ne peuvent pas être utiliser avec la commande "![Texte alternatif](Nom_Du_PNG.png)".
-J'ai donc renommé mes png puis les ai remis dans le repo via le bouton "Add file" et "Upload files" et je n'ai pas réussi a supprimer les anciennes images.
-Quand je cliquais dessus et que cela m'ouvrait le "dossier" de l'image, je pouvais cliquer sur les trois petits points puis cliquer sur "Delete file". Git m'indiquait alors que le file était supprimer mais quand je rechargeais la page, l'image était toujours la.
-
-Aussi j'ai suivit les indications du git "PROG_SLO_26_27" pour avoir mon dépôt git en local mais cela n'as pas fonctionner. C'est pour cela que je suis passé par les "Add file" et "Upload files" pour mettre mes mesures sur le git afin d'éviter de perdre trop de temps sur ce problème.
