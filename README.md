@@ -104,16 +104,16 @@ Pour ce faire, il faut :
    4) Dans la colonne "Latch (LAT)", la mettre en Low.
    5) Appuyer sur les rouages pour générer le code.
    6) Dans le app.h, définir le write, le tristate, le port et la position du bit de la pin de la manière suivante :
-      #define PIN_TEST_W       LATBbits.LATB6
-      #define PIN_TEST_T       TRISBbits.TRISB6   
-      #define PIN_TEST_PORT    PORT_CHANNEL_B
-      #define PIN_TEST_BIT     PORTS_BIT_POS_6
+   - #define PIN_TEST_W       LATBbits.LATB6
+   - #define PIN_TEST_T       TRISBbits.TRISB6
+   - #define PIN_TEST_PORT    PORT_CHANNEL_B
+   - #define PIN_TEST_BIT     PORTS_BIT_POS_6
       
 La pin choisie étant la pin RB6, son port est le B et sa position est la 6, si la pin choisi avait été, par exemple RA11, les #define auraient été faite de la façon suivante :
-      #define PIN_TEST_W       LATAbits.LATA11
-      #define PIN_TEST_T       TRISAbits.TRISA11   
-      #define PIN_TEST_PORT    PORT_CHANNEL_A
-      #define PIN_TEST_BIT     PORTS_BIT_POS_11
+   - #define PIN_TEST_W       LATAbits.LATA11
+   - #define PIN_TEST_T       TRISAbits.TRISA11
+   - #define PIN_TEST_PORT    PORT_CHANNEL_A
+   - #define PIN_TEST_BIT     PORTS_BIT_POS_11
 
 Voici l'image illustrant les points 2) à 4) :
 
