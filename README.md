@@ -38,9 +38,9 @@ La configuration doit ressembler à cela :
 # Oscillogrammes du chenillard
 Les explications du comportement des LEDs sur un cycle de chenillard considèrent qu'un cycle de chenillard début à l'allumage de la LED D6 et fini lorsque celle-ci s'allume à nouveau.
 
-## Oscillogramme LED D6 (1ème LED)
+## Oscillogramme LED D6 (1ère LED)
 
-![Texte alternatif](Mesures_LEDs_D6_(1eme_LED).png)
+![Texte alternatif](Mesures_LEDs_D6_(1ere_LED).png)
 
 Le temps bas sur le channel 1 est le temps durant lequel la LED D6 est allumée.
 La mesure effectuée à l'aide des curseurs montre qu'elle reste allumée pendant 200ms. Cela prouve que l'appel de la fonction chenillard est bien effectuer toutes les 200ms.
@@ -49,9 +49,9 @@ Voici comment la LED D6 se comporte lors d'un cycle complète du chenillard
    2) La LED D6 s'éteint pendant 2.6s.
    3) Le cycle recommence.
 
-## Oscillogramme LED D10 (2ème LED)
+## Oscillogramme LED D10 (2ère LED)
 
-![Texte alternatif](Mesures_LEDs_D10_(2eme_LED).png)
+![Texte alternatif](Mesures_LEDs_D10_(2eme_led).png)
 
 Les temps bas sur le channel 2 sont les temps durant lesquel la LED D10 est allumée.
 La mesure du temps bas par les curseurs montre, elle aussi, que la LED D10 reste allumée durant 200ms.
@@ -65,9 +65,9 @@ Voici comment la LED D10 se comporte lors d'un cycle complète du chenillard
    5) Le cycle recommence.
 
 
-## Oscillogramme LED D7 (3ème LED)
+## Oscillogramme LED D7 (3ère LED)
 
-![Texte alternatif](Mesures_LEDs_D7_(3eme_LED).png)
+![Texte alternatif](Mesures_LEDs_D7_(3eme_led).png)
 
 Les temps bas sur le channel 3 sont les temps durant lesquel la LED D7 est allumée.
 La mesure du temps bas par les curseurs montre, elle aussi, que la LED D7 reste allumée durant 200ms.
@@ -80,9 +80,9 @@ Voici comment la LED D7 se comporte lors d'un cycle complète du chenillard
    6) Le cycle recommence.
 
 
-## Oscillogramme LED D11 (4ème LED)
+## Oscillogramme LED D11 (4ère LED)
 
-![Texte alternatif](Mesures_LEDs_D11_(4eme_LED).png)
+![Texte alternatif](Mesures_LEDs_D11_(4eme_led).png)
 
 Les temps bas sur le channel 4 sont les temps durant lesquel la LED D7 est allumée.
 La mesure du temps bas par les curseurs montre, elle aussi, que la LED D11 reste allumée durant 200ms.
